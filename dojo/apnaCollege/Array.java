@@ -114,6 +114,9 @@ public class Array {
         System.out.println("min is: " +min);
 
     }
+    public static void count_array(int arr[]){
+        
+    }
     public static void main(String[] args) {
         int numbers[] = {2, 4, 6, 8, 10};
         int numberss[] = {1, -2, 6, -1, 3};
