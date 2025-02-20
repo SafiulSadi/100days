@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+    <form action="#">
+        <input type="text" name="firstname" id="firstname" placeholder="First Name" >
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br>
+        <label for="gender">Please select gender</label>
+
+        <select name="gender" id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select>
+        <br>
+        <label for="agree">Do you agree to all the terms of services?</label>
+        <input type="checkbox" name="agree" id="agree"> 
+        <label for="agree">Yes, I agree</label>
+        <button>Register</button>
+    </form>
+    <hr>
+
+    <form action="/action">
+        
+        <label for="Username">Username
+
+            <input id="Username" type="text">
+        </label>
+        <input type="password">
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <button type="button">button</button>
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" id="q">
+        <button>search</button>
+    </form>
+    <form action="#">
+        <input type="radio" name="fruit" id="apple" value="apple"/>
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="banana" value="banana"/>
+        <label for="banana">Banana</label>
+        <input type="radio" name="fruit" id="mango" value="mango"/>
+        <label for="mango">Mango</label>
+        <button>submit</button>
+    </form>
+    <form action="#">
+        <input type="range" min="0" max="100" name="vol">
+        <label for="vol">vol</label>
+        <button>submit</button>
+    </form>
+</body>
+</html>
