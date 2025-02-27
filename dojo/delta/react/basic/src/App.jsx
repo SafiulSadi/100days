@@ -1,13 +1,11 @@
 import "./App.css"
-import Product from "./Product";
-
+import TodoList from "./TodoList"
 function App() {
 
   return (
-  <div>
-    <Product/>
-    
-  </div>
+  <>
+  <TodoList/>
+  </>
 
   )
 }
