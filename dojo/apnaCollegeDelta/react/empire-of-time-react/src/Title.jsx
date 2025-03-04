@@ -3,6 +3,7 @@ import alleye from "./assets/alleyes.png"
 import "./Title.css";
 function Title(){
     return (<div>
+        <div className="container">
         <header className="main-header">
             <h1>📘 The Code Magazine</h1>
             <img width={"200px"} src={alleye} alt="All eyes on me Tee" />
@@ -46,11 +47,14 @@ function Title(){
                 <li className="related-authors"><img width="80px" src={zoro} alt="zoro" /><a href="#">Why JavaScript is Awesome</a> By Matilda</li>
             </ul>
         </aside>
+
         <footer>
            <p>
            Copyright &copy; 2027 by The Code Magazine
             </p>
         </footer>
+        </div>
+        <button className="button-like">❤ like</button>
 
     </div>)
 }

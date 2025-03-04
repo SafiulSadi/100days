@@ -6,7 +6,7 @@ export default function Like(){
     function toggleLike(){
         setIsLike(!isLike)
     }
-    return (<span onClick={toggleLike} style={isLike?{color:"red"}:{}}>
+    return (<span onClick={toggleLike} style={isLike?{color:"red", cursor:"pointer"}:{ cursor:"pointer"}}>
         {isLike ? "♥" : "♡"}
     </span>)
 }
