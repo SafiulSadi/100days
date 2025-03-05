@@ -12,7 +12,7 @@ function App() {
   let arr = ["Zoro Wanted Poster Hoodie/Tee for winter", "All Eyes On Me Tee/Hoodie for winter and summer", "Converse Chuck Taylor All Star Low Top"]
   return (
     <>
-     <Title/>
+     <Container/>
       
 
     </>

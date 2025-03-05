@@ -61,6 +61,7 @@ li:nth-child(even){
 a:link{
     color:#1098ad;
     text-decoration: none;
+
 }
 a:visited{
     color: #1098ad;
@@ -81,6 +82,11 @@ a:active{
  */
 nav{
     font-size: 18px;
+    text-align: center;
+}
+nav a{
+    padding: 15px;
+    margin: 15px;
 }
 .button-like{
     font-size: 22px;
@@ -106,9 +112,10 @@ h2::after{
     padding: 5px 10px;
     position:absolute;
     top: -15px;
-    right: -25px
+    right: -25px;
     color:#444;
 }
 .container{
     width:80%;
+    margin: 0 auto;
 }
