@@ -3,6 +3,7 @@ import alleye from "./assets/image.png"
 import converse from "./assets/converse.png"
 import elephantWhite from "./assets/image-3.png"
 import elephantBlack from "./assets/image.png"
+import elephantBlack from "./assets/image.png"
 import "./Container.css"
 import {Title, Description} from './Title'
 import Card from './Card'
