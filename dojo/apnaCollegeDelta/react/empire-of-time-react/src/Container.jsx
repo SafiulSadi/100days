@@ -1,12 +1,14 @@
 import zoro from "./assets/zoro.png";
-import alleye from "./assets/alleyes.png"
+import alleye from "./assets/image.png"
 import converse from "./assets/converse.png"
+import elephantWhite from "./assets/image-3.png"
+import elephantBlack from "./assets/image.png"
 import "./Container.css"
 import {Title, Description} from './Title'
 import Card from './Card'
 import Converse from './Converse';
 export default function Container(){
-    let hoodies = [{sale: 10,htitle:"Zoro Wanted Poster Hoodie/Tee for winter", price:20, image:zoro}, {sale: 0,htitle:"All Eyes On Me Tee/Hoodie for winter and summer", price:21, image:alleye}, {sale: 5,htitle:"Converse Chuck Taylor All Star Low Top", price:65, image:converse}]
+    let hoodies = [{sale: 10,htitle:"Zoro Wanted Poster Hoodie/Tee for winter", price:20, image:zoro}, {sale: 10,htitle:"Zoro Wanted Poster Hoodie/Tee for winter", price:20, image:elephantWhite}, {sale: 0,htitle:"All Eyes On Me Tee/Hoodie for winter and summer", price:21, image:alleye}, {sale: 5,htitle:"Converse Chuck Taylor All Star Low Top", price:65, image:converse}]
       let arr = ["Zoro Wanted Poster Hoodie/Tee for winter", "All Eyes On Me Tee/Hoodie for winter and summer", "Converse Chuck Taylor All Star Low Top"]
       let stl = { marginTop:"30px",width: "90%",margin:"0 auto", alignItems:"center", textAlign:"center", }
     return (
