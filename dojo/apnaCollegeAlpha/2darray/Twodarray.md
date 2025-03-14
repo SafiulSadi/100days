@@ -2,4 +2,4 @@
 ## row major and column major 
 ## arrays in memory 
 ## spiral matrix
- 
+  
