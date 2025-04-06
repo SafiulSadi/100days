@@ -22,7 +22,7 @@ iss_position = (float(data1["iss_position"]["longitude"]), float(data1["iss_posi
 print(iss_position)
 
 dl = 23.810331
-# dl = -10.810331
+dl = -10.810331
 dlng = 90.412521
 # dlng = -39.412521
 
